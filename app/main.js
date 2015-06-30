@@ -100,3 +100,9 @@ var palette = [
     "color": "#7f8c8d"
   }
 ];
+
+document.addEventListener("DOMContentLoaded", function () {
+  ZeroClipboard.config({
+    swfPath: "http://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.swf"
+  });
+});
