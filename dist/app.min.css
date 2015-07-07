@@ -1,1 +1,1 @@
-.color-list{padding-left:0}.color{display:block;padding:16px;text-align:center}
+header{display:flex;align-items:center;padding:6px 24px}header>div{flex:1}h1{font-family:Lobster,Helvetica,sans-serif}#format-list{text-align:center}#format-list label{margin-right:9px;font-size:16px}#about{text-align:right}#about a,#about a:hover{text-decoration:none;color:#3498db;font-size:16px}#about a .fa,#about a:hover .fa{font-size:150%;position:relative;top:3px}.color-list{padding-left:0;margin:0}.color{display:block;padding:16px;text-align:center}
