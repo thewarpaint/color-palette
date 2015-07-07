@@ -1,7 +1,47 @@
 @import 'flat-ui-theme';
 
+header {
+  display: flex;
+  align-items: center;
+  padding: 6px 24px;
+
+  > div {
+    flex: 1;
+  }
+}
+
+h1 {
+  font-family: Lobster, Helvetica, sans-serif;
+}
+
+#format-list {
+  text-align: center;
+
+  label {
+    margin-right: 9px;
+    font-size: 16px;
+  }
+}
+
+#about {
+  text-align: right;
+
+  a, a:hover {
+    text-decoration: none;
+    color: $palette-peter-river;
+    font-size: 16px;
+
+    .fa {
+      font-size: 150%;
+      position: relative;
+      top: 3px;
+    }
+  }
+}
+
 .color-list {
   padding-left: 0;
+  margin: 0;
 }
 
 .color {

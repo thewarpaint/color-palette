@@ -45,7 +45,10 @@ FormatList = React.createClass({
     });
 
     return (
-      <select defaultValue="sass">{ options }</select>
+      <div>
+        <label htmlFor="format-select">Choose format:</label>
+        <select id="format-select" defaultValue="sass">{ options }</select>
+      </div>
     )
   }
 });
