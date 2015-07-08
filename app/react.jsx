@@ -31,7 +31,8 @@ Color = React.createClass({
 
     return (
       <li className="color" style={ style } data-clipboard-text={ '$' + this.props.data.variable }>
-        { this.props.data.name }</li>
+        <div className="color-inner">{ this.props.data.name }</div>
+      </li>
     );
   }
 });
