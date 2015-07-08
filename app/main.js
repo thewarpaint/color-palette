@@ -6,19 +6,9 @@ var ColorPalette = {
       "hex": "#1abc9c"
     },
     {
-      "name": "Green Sea",
-      "variable": "palette-green-sea",
-      "hex": "#16a085"
-    },
-    {
       "name": "Emerald",
       "variable": "palette-emerald",
       "hex": "#2ecc71"
-    },
-    {
-      "name": "Nephritis",
-      "variable": "palette-nephritis",
-      "hex": "#27ae60"
     },
     {
       "name": "Peter River",
@@ -26,24 +16,34 @@ var ColorPalette = {
       "hex": "#3498db"
     },
     {
-      "name": "Belize Hole",
-      "variable": "palette-belize-hole",
-      "hex": "#2980b9"
-    },
-    {
       "name": "Amethyst",
       "variable": "palette-amethyst",
       "hex": "#9b59b6"
     },
     {
-      "name": "Wisteria",
-      "variable": "palette-wisteria",
-      "hex": "#8e44ad"
-    },
-    {
       "name": "Wet Asphalt",
       "variable": "palette-wet-asphalt",
       "hex": "#34495e"
+    },
+    {
+      "name": "Green Sea",
+      "variable": "palette-green-sea",
+      "hex": "#16a085"
+    },
+    {
+      "name": "Nephritis",
+      "variable": "palette-nephritis",
+      "hex": "#27ae60"
+    },
+    {
+      "name": "Belize Hole",
+      "variable": "palette-belize-hole",
+      "hex": "#2980b9"
+    },
+    {
+      "name": "Wisteria",
+      "variable": "palette-wisteria",
+      "hex": "#8e44ad"
     },
     {
       "name": "Midnight Blue",
@@ -56,19 +56,9 @@ var ColorPalette = {
       "hex": "#f1c40f"
     },
     {
-      "name": "Orange",
-      "variable": "palette-orange",
-      "hex": "#f39c12"
-    },
-    {
       "name": "Carrot",
       "variable": "palette-carrot",
       "hex": "#e67e22"
-    },
-    {
-      "name": "Pumpkin",
-      "variable": "palette-pumpkin",
-      "hex": "#d35400"
     },
     {
       "name": "Alizarin",
@@ -76,24 +66,34 @@ var ColorPalette = {
       "hex": "#e74c3c"
     },
     {
-      "name": "Pomegranate",
-      "variable": "palette-pomegranate",
-      "hex": "#c0392b"
-    },
-    {
       "name": "Clouds",
       "variable": "palette-clouds",
       "hex": "#ecf0f1"
     },
     {
-      "name": "Silver",
-      "variable": "palette-silver",
-      "hex": "#bdc3c7"
-    },
-    {
       "name": "Concrete",
       "variable": "palette-concrete",
       "hex": "#95a5a6"
+    },
+    {
+      "name": "Orange",
+      "variable": "palette-orange",
+      "hex": "#f39c12"
+    },
+    {
+      "name": "Pumpkin",
+      "variable": "palette-pumpkin",
+      "hex": "#d35400"
+    },
+    {
+      "name": "Pomegranate",
+      "variable": "palette-pomegranate",
+      "hex": "#c0392b"
+    },
+    {
+      "name": "Silver",
+      "variable": "palette-silver",
+      "hex": "#bdc3c7"
     },
     {
       "name": "Asbestos",
