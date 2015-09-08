@@ -1,106 +1,5 @@
 var ColorPalette = {
-  palette: [
-    {
-      "name": "Turquoise",
-      "variable": "palette-turquoise",
-      "hex": "#1abc9c"
-    },
-    {
-      "name": "Emerald",
-      "variable": "palette-emerald",
-      "hex": "#2ecc71"
-    },
-    {
-      "name": "Peter River",
-      "variable": "palette-peter-river",
-      "hex": "#3498db"
-    },
-    {
-      "name": "Amethyst",
-      "variable": "palette-amethyst",
-      "hex": "#9b59b6"
-    },
-    {
-      "name": "Wet Asphalt",
-      "variable": "palette-wet-asphalt",
-      "hex": "#34495e"
-    },
-    {
-      "name": "Green Sea",
-      "variable": "palette-green-sea",
-      "hex": "#16a085"
-    },
-    {
-      "name": "Nephritis",
-      "variable": "palette-nephritis",
-      "hex": "#27ae60"
-    },
-    {
-      "name": "Belize Hole",
-      "variable": "palette-belize-hole",
-      "hex": "#2980b9"
-    },
-    {
-      "name": "Wisteria",
-      "variable": "palette-wisteria",
-      "hex": "#8e44ad"
-    },
-    {
-      "name": "Midnight Blue",
-      "variable": "palette-midnight-blue",
-      "hex": "#2c3e50"
-    },
-    {
-      "name": "Sun Flower",
-      "variable": "palette-sun-flower",
-      "hex": "#f1c40f"
-    },
-    {
-      "name": "Carrot",
-      "variable": "palette-carrot",
-      "hex": "#e67e22"
-    },
-    {
-      "name": "Alizarin",
-      "variable": "palette-alizarin",
-      "hex": "#e74c3c"
-    },
-    {
-      "name": "Clouds",
-      "variable": "palette-clouds",
-      "hex": "#ecf0f1"
-    },
-    {
-      "name": "Concrete",
-      "variable": "palette-concrete",
-      "hex": "#95a5a6"
-    },
-    {
-      "name": "Orange",
-      "variable": "palette-orange",
-      "hex": "#f39c12"
-    },
-    {
-      "name": "Pumpkin",
-      "variable": "palette-pumpkin",
-      "hex": "#d35400"
-    },
-    {
-      "name": "Pomegranate",
-      "variable": "palette-pomegranate",
-      "hex": "#c0392b"
-    },
-    {
-      "name": "Silver",
-      "variable": "palette-silver",
-      "hex": "#bdc3c7"
-    },
-    {
-      "name": "Asbestos",
-      "variable": "palette-asbestos",
-      "hex": "#7f8c8d"
-    }
-  ],
+  palette: [],
   formats: [
     {
       id: "hex",
@@ -156,3 +55,19 @@ document.addEventListener("DOMContentLoaded", function () {
     swfPath: "http://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.swf"
   });
 });
+
+var url = 'https://gist.githubusercontent.com/thewarpaint/801bb9139e4e4064ed9b/raw/7f916b34e2fcd10c00107c6c4be48045747d5411/flat-ui.json';
+var xhr = new XMLHttpRequest();
+xhr.open('get', url, true);
+xhr.onreadystatechange = function () {
+  var data;
+
+  if(xhr.readyState === 4) { // Done
+    if(xhr.status === 200) {
+      data = JSON.parse(xhr.responseText);
+      console.log(data);
+    }
+  }
+};
+
+xhr.send();
